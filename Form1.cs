@@ -66,7 +66,7 @@ namespace WindowsFormsApp1
             {
                 t++;
                 
-                t
+                
             }
             else if (t >= 18 && t <= 28)
             {
