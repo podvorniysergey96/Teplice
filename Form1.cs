@@ -40,11 +40,7 @@ namespace WindowsFormsApp1
         {
             Random rnd = new Random(); // Оголошення рамдому
             int a = rnd.Next(0, 10); // Отримання рамдомної перемінної для оновлення температури 
-
-
-
-
-
+            
             if (checkBox1.Checked == false && checkBox2.Checked == false && checkBox3.Checked == false && checkBox4.Checked == false && checkBox5.Checked == false && checkBox6.Checked == false)
             {
                 textBox5.Text = "Датчики вимкнено";
@@ -63,28 +59,17 @@ namespace WindowsFormsApp1
             {
                 t--;
 
-
-
                 textBox6.Text = "Зменшення температури до норми 18-28 градусів";
-
-
-
-
+                
             }
             else if (t <= 17) // Якщо температура <= 17, то температура  збільшується
             {
                 t++;
-
-
-
-                textBox6.Text = "Збільшення температури до норми 18-28 градусів";
-
-
-
+                
+                t
             }
             else if (t >= 18 && t <= 28)
             {
-
                 textBox6.Text = "Температура в межах норми 18-28 градусів";
             }
             if (v < 70)
@@ -99,7 +84,6 @@ namespace WindowsFormsApp1
             }
             else if (v == 70)
             {
-
                 textBox3.Text = "Оптимальна вологість 70%";
             }
             if (t >= 35 & t <= 40)
@@ -114,21 +98,7 @@ namespace WindowsFormsApp1
             {
                 w = w - 1;
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
             if (checkBox1.Checked == true)
             {
                 textBox1.Text = t.ToString();
@@ -285,8 +255,6 @@ namespace WindowsFormsApp1
             {
                 v = 48;
             }
-
-
             if (checkBox3.Checked == true)
             {
                 textBox2.Text = v.ToString();
@@ -319,21 +287,7 @@ namespace WindowsFormsApp1
                 label4.Text = "1-й та 2-й датчики увімкнено";
 
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
             if (w == 90)
             {
                 textBox8.Text = "Оптимальний рівень води";
@@ -376,14 +330,6 @@ namespace WindowsFormsApp1
                 label5.Text = "1-й та 2-й датчики увімкнено";
 
             }
-
-
-
-
-
-
-
-
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
