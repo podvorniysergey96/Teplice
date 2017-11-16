@@ -79,7 +79,7 @@ namespace WindowsFormsApp1
             // 
             // textBox6
             // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.textBox6.BackColor = System.Drawing.Color.White;
             this.textBox6.Location = new System.Drawing.Point(12, 12);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(263, 20);
@@ -87,7 +87,7 @@ namespace WindowsFormsApp1
             // 
             // textBox3
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.textBox3.BackColor = System.Drawing.Color.White;
             this.textBox3.Location = new System.Drawing.Point(12, 38);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(263, 20);
@@ -95,7 +95,7 @@ namespace WindowsFormsApp1
             // 
             // textBox8
             // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.textBox8.BackColor = System.Drawing.Color.White;
             this.textBox8.Location = new System.Drawing.Point(12, 64);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(263, 20);
@@ -103,7 +103,7 @@ namespace WindowsFormsApp1
             // 
             // textBox5
             // 
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.textBox5.BackColor = System.Drawing.Color.White;
             this.textBox5.Location = new System.Drawing.Point(12, 90);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(263, 20);
@@ -111,7 +111,7 @@ namespace WindowsFormsApp1
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Red;
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.textBox1.Location = new System.Drawing.Point(344, 38);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(29, 20);
@@ -120,7 +120,7 @@ namespace WindowsFormsApp1
             // 
             // textBox2
             // 
-            this.textBox2.BackColor = System.Drawing.Color.LightGreen;
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.textBox2.Location = new System.Drawing.Point(344, 64);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(29, 20);
@@ -128,7 +128,7 @@ namespace WindowsFormsApp1
             // 
             // textBox9
             // 
-            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.textBox9.Location = new System.Drawing.Point(344, 90);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(29, 20);
@@ -136,7 +136,7 @@ namespace WindowsFormsApp1
             // 
             // textBox4
             // 
-            this.textBox4.BackColor = System.Drawing.Color.Red;
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.textBox4.Location = new System.Drawing.Point(439, 38);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(29, 20);
@@ -145,7 +145,7 @@ namespace WindowsFormsApp1
             // 
             // textBox7
             // 
-            this.textBox7.BackColor = System.Drawing.Color.LightGreen;
+            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.textBox7.Location = new System.Drawing.Point(439, 64);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(29, 20);
@@ -154,7 +154,7 @@ namespace WindowsFormsApp1
             // 
             // textBox10
             // 
-            this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.textBox10.Location = new System.Drawing.Point(439, 90);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(29, 20);
@@ -215,7 +215,7 @@ namespace WindowsFormsApp1
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -295,7 +295,7 @@ namespace WindowsFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(682, 150);
             this.Controls.Add(this.checkBox6);
             this.Controls.Add(this.checkBox4);
